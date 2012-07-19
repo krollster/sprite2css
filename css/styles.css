@@ -1,0 +1,14 @@
+body { margin: 0; padding: 0; }
+
+#controls { margin: 10px 0 10px 1%; width: 700px; }
+
+#grid { float: left; width: 65%; height: 700px; margin: 0 2% 10px 1%; background: url(../img/grid.png) 1px 1px; border: 1px solid #CCC; overflow: hidden; }
+
+#css { float: left; width: 30%; height: 700px; margin-left: 1%; border: 1px solid #CCC; overflow-y: auto; }
+#css code { padding: 10px; display: block; }
+#css code.active, code:hover { background-color: #FBCB09; }
+
+.resizable { width: 100px; height: 100px; border: 1px solid #F06; cursor: move; }
+.draggable.active { background-color: #FBCB09 !important; }
+.ui-icon-gripsmall-diagonal-se { width: 8px; height: 8px; background-position: -68px -228px; }
+#new_box, #box_snap, label { cursor: pointer; }

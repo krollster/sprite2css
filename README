@@ -1,0 +1,37 @@
+Experimental !
+
+sprite2css - A tool to generate CSS rules for sprite locations on spritesheets.
+This code uses the HTML5 FileReader API and has only been 'tested' on Firefox (13, 14) and Chrome (whatever version they're up to atm.)
+
+Requirements:
+
+- (local) server like Apache etc. to get get the image upload working
+- you may need to set folder permissions for the upload folder depending on your OS
+
+How to use:
+
+1. Drag & drop image file to grid
+2. Specify ID or class name to be used for the box to be placed
+3. Specify dimensions of the box you want to place
+4. Optional. Toggle snap mode for the next box
+5. Click 'Add new box'
+6. Reposition new box. (Always spawns top/left)
+7. Resize box if needed.
+
+Controls:
+
+- move boxes on grid via drag & drop
+- resize boxes via the resize handlers at each box's bottom/right corner(s)
+- double click a box to remove it from the grid
+- hover over a box to highlight the corresponding CSS section in the right panel
+- hover over a CSS rule in the right panel to highlight the corresponding box on the grid 
+
+Disclaimer:
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
